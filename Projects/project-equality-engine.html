@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Equality Engine · Lingqing Wang</title>
+  <meta name="description" content="A cooperative online board game that teaches post-secondary students to spot and fix machine-learning bias in hiring (CSCW 2025).">
+  <link rel="icon" href="../Images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-nav">
+    <nav class="wrap nav-inner" aria-label="Main">
+      <a href="../index.html#about" class="nav-logo">Lingqing Wang</a>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="../index.html#about">About</a></li>
+        <li><a href="../index.html#news">News</a></li>
+        <li><a href="../index.html#research">Research</a></li>
+        <li><a href="../index.html#publications">Publications</a></li>
+        <li><a href="../index.html#contact">Contact</a></li>
+        <li><a href="../CV.pdf" class="nav-cv" target="_blank" rel="noopener">CV ↗</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" class="project-page">
+    <article class="wrap wrap--narrow">
+      <a href="../index.html#research" class="back-link">← Back to Research</a>
+
+      <div class="project-meta">
+        <span class="meta-year">2025</span>
+        <span class="meta-pill">CSCW 2025</span>
+        <span class="meta-pill">Northeastern University</span>
+        <span class="meta-pill">Co-first author</span>
+      </div>
+      <h1 class="project-page-title">Equality Engine: A Board Game for Spotting and Fixing Machine-Learning Bias</h1>
+      <p class="project-hook">Machine learning now helps decide who gets hired, but its biases are hidden and socio-technical, so they are hard to spot or prevent without the right literacy. In Equality Engine, <strong>players act as engineers debugging a hiring algorithm</strong>: they trace where bias creeps in and <strong>debate how to fix it</strong>.</p>
+
+      <figure class="project-figure" data-reveal>
+        <div class="figure-frame">
+          <img src="../Images/equality-engine-board.png" width="1244" height="881" alt="The Equality Engine game board on a navy background: a cycle from State of the World to Sample, Dataset, Algorithms, and Job Applications, with card slots for historical, representation, measurement, modeling, and deployment bias, piles for the Discover Bias and Debias phases, and areas for the student pool (+10) and preventive measures (+30).">
+        </div>
+        <figcaption>The game board (Figure 1 in the paper). A hiring system's pipeline runs from the state of the world to a sample, a dataset, algorithms, and job applications, and each stage has its own source of bias: historical, representation, measurement, modeling, and deployment.</figcaption>
+      </figure>
+
+      <section class="detail-section" data-reveal>
+        <h2 class="detail-label">The Game</h2>
+        <p>Equality Engine is a cooperative two-player board game that runs in the browser on PlayingCards.io. Its five bias types adapt Suresh and Guttag's framework of bias across the ML life cycle, and most of its 20 bias cards come from research on algorithmic hiring, rewritten without ML jargon.</p>
+        <figure class="project-figure project-figure--compact">
+          <div class="figure-frame">
+            <img src="../Images/equality-engine-cards.jpg" width="1600" height="1122" alt="Five example bias cards, one per category, such as Historical Bias: Name Discrimination and Modeling Bias: Machines Stick to It, next to the red back of a bias card.">
+          </div>
+          <figcaption>Example bias cards, one from each category (Figure 2 in the paper). Each pairs a short title with a real case, such as résumés with “white” names getting more callbacks.</figcaption>
+        </figure>
+        <p>A session runs three rounds, and in every round each player moves through three phases. A leaderboard of the top three past scores adds a goal without pitting players against each other directly.</p>
+        <div class="finding-grid finding-grid--3">
+          <div class="finding">
+            <h3>1. Discover Bias</h3>
+            <p>Explain a bias card to your teammate without naming its category. If they identify the type of bias, the team earns 5 points.</p>
+          </div>
+          <div class="finding">
+            <h3>2. Debias</h3>
+            <p>Draw a debias card and answer its open question together, such as which experts to consult. A thoughtful answer earns 5 points.</p>
+          </div>
+          <div class="finding">
+            <h3>3. Take Actions</h3>
+            <p>Make two moves: help a BIPOC student get a job (10 points), remove a bias card, pass a debias card, or trade three for a preventive measure (30 points).</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="detail-section" data-reveal>
+        <h2 class="detail-label">Methods</h2>
+        <ol class="method-flow">
+          <li class="method-step">
+            <strong>Transformational game design</strong>
+            Chose the game's learning goals from the literature, then refined the board and cards through rounds of internal playtesting and a pilot study so that players without ML training could follow them.
+          </li>
+          <li class="method-step">
+            <strong>Playtests over Zoom</strong>
+            Pairs of post-secondary students played three rounds, then talked about what they liked, what they didn't, and what they would change. Pairs were matched by race so that players felt comfortable discussing sensitive experiences of bias.
+            <br><span class="method-n">N = 12 STEM students · 12+ hours of gameplay</span>
+          </li>
+          <li class="method-step">
+            <strong>Pre- and post-game surveys</strong>
+            Measured self-reported ML bias knowledge and self-efficacy before and after play, along with how useful and enjoyable the game was.
+          </li>
+          <li class="method-step">
+            <strong>Mixed-methods analysis</strong>
+            Scored every bias guess as correct or incorrect, thematically analyzed the debiasing discussions, gameplay talk, and interviews, and tested the pre–post change with a Wilcoxon signed-rank test.
+          </li>
+        </ol>
+      </section>
+
+      <section class="detail-section" data-reveal>
+        <h2 class="detail-label">Key Findings</h2>
+        <div class="finding-grid">
+          <div class="finding">
+            <h3>Knowledge rose after one session</h3>
+            <p>Students' self-reported knowledge of ML bias rose significantly after playing, from a median of 16.5 to 24 out of 28.</p>
+          </div>
+          <div class="finding">
+            <h3>Debiasing talk was the highlight</h3>
+            <p>Most players called the open-ended Debias discussions the most compelling part, and pairs with no ML background proposed fixes as well as experienced pairs did.</p>
+          </div>
+          <div class="finding">
+            <h3>Some biases are harder to spot</h3>
+            <p>Historical bias was the easiest to identify, while representation bias accounted for 40% of all wrong guesses.</p>
+          </div>
+          <div class="finding">
+            <h3>Social play made it easy</h3>
+            <p>Social interaction and immersion predicted how easy the game felt, and pairs that planned ahead together, such as by building preventive measures, topped the leaderboard.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="detail-section" data-reveal>
+        <h2 class="detail-label">Design Implications</h2>
+        <ul class="impact-list">
+          <li>Use games for <span class="stat">exposure</span>: concrete examples and a shared vocabulary help people notice ML bias, even when it affects their own communities.</li>
+          <li>Build in <span class="stat">collaboration</span>: peer teaching in pairs can make up for gaps in individual ML knowledge.</li>
+          <li>Scaffold <span class="stat">critical reflection</span>: the frustration of misidentifying biases early on, worked through in later phases, can drive transformative learning.</li>
+          <li>Measure the <span class="stat">learning process</span>, not just outcomes: self-reports skewed positive, while gameplay showed confusion and frustration that the surveys missed.</li>
+        </ul>
+      </section>
+
+      <section class="detail-section" data-reveal>
+        <h2 class="detail-label">My Role</h2>
+        <p>Co-first author with Dilruba Showkat (equal contribution). I co-designed and evaluated the game while working remotely with Prof. Alexandra To at Northeastern University in 2022.</p>
+      </section>
+
+      <section class="detail-section" data-reveal>
+        <h2 class="detail-label">Related</h2>
+        <ul class="related-list">
+          <li>
+            <a href="https://doi.org/10.1145/3544548.3581010" target="_blank" rel="noopener">“Who is the right homeless client?”: Values in Algorithmic Homelessness Service Provision and Machine Learning Research ↗</a>
+            <span>Dilruba Showkat, Angela D. R. Smith, Lingqing Wang, Alexandra To · CHI 2023</span>
+          </li>
+        </ul>
+      </section>
+
+      <section class="detail-section" data-reveal>
+        <h2 class="detail-label">Cite</h2>
+        <div class="cite-block">
+          <p id="cite-text">Dilruba Showkat, Lingqing Wang, Laveda Chan, and Alexandra To. 2025. Equality Engine: Fostering Critical Machine Learning Bias Literacy Through a Transformational Game. <em>Proc. ACM Hum.-Comput. Interact.</em> 9, 2, Article CSCW068 (April 2025), 31 pages. https://doi.org/10.1145/3710966</p>
+          <button class="cite-copy" type="button" data-copy="cite-text">Copy</button>
+        </div>
+      </section>
+
+      <div class="project-links">
+        <a href="https://doi.org/10.1145/3710966" target="_blank" rel="noopener" class="btn btn--solid">Read the paper ↗</a>
+        <a href="https://github.com/wang0q/EquityEngine" target="_blank" rel="noopener" class="btn">Game files on GitHub ↗</a>
+      </div>
+
+      <nav class="project-pager" aria-label="More projects">
+        <a class="prev" href="project-good-xai.html"><small>Previous project</small>← What Makes XAI “Good”?</a>
+      </nav>
+    </article>
+  </main>
+
+  <script src="../script.js"></script>
+</body>
+</html>

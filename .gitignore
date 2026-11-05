@@ -1,0 +1,10 @@
+.DS_Store
+.claude/
+
+# Source files dropped in for reference; not part of the site
+Resume*.pdf
+3772318.3790279*.pdf
+3710966*.pdf
+
+# CV working files, including other people's CVs kept as references
+Resume/
