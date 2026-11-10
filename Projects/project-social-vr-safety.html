@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Safety in Social VR · Lingqing Wang</title>
+  <meta name="description" content="Two studies (CSCW 2023) of 212 first-person YouTube videos and 13 platform safety features, showing how safety risks unfold in social VR and where safety design falls short.">
+  <link rel="icon" href="../Images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-nav">
+    <nav class="wrap nav-inner" aria-label="Main">
+      <a href="../index.html#about" class="nav-logo">Lingqing Wang</a>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="../index.html#about">About</a></li>
+        <li><a href="../news.html">News</a></li>
+        <li><a href="../research.html" class="is-active">Research</a></li>
+        <li><a href="../publications.html">Publications</a></li>
+        <li><a href="../index.html#contact">Contact</a></li>
+        <li><a href="../CV.pdf" class="nav-cv" target="_blank" rel="noopener">CV ↗</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main" class="project-page">
+    <article class="wrap wrap--narrow">
+      <a href="../research.html" class="back-link">← Back to Research</a>
+
+      <div class="project-meta">
+        <span class="meta-year">2023</span>
+        <span class="meta-pill">CSCW 2023</span>
+        <span class="meta-pill">University of Illinois Urbana-Champaign</span>
+        <span class="meta-pill">Co-second author</span>
+      </div>
+      <h1 class="project-page-title">Safety in Social VR: What Goes Wrong, and What Safety Features Miss</h1>
+      <p class="project-hook">In social VR, people meet as full-body avatars, so harassment is not just seen or heard but <strong>felt</strong>: in one video, a virtual slap sent a victim to the floor in real life. We watched <strong>212 first-person YouTube videos</strong> to see how safety risks unfold in the moment, then tested platforms' safety features against them. The features center on <strong>personal space</strong>, while attacks also travel through <strong>voices, words, and gestures</strong>.</p>
+
+      <figure class="project-figure" data-reveal>
+        <div class="figure-frame">
+          <img src="../Images/social-vr-incidents.jpg" width="1600" height="1361" alt="Three hand-drawn comic strips of incidents in social VR. (a) A male user praises a user with a long-haired avatar and a female voice, who agrees to be friends in a male voice; he recoils in shock. (b) An attacker in a fanged monster avatar rushes at a user, who covers his face and then shields his head. (c) A user keeps touching another user, who says “Don't touch me!”, pushes the hands away, and steps back saying “Stay back!”">
+        </div>
+        <figcaption>Three incidents from the dataset, redrawn as illustrations (Figure 2 in the paper). (a) Voice trolling: a friendly exchange turns when one user suddenly switches to a masculine voice. (b) Virtual scaring: an attacker in a terrifying avatar rushes at a victim, who shields his head as if the threat were physical. (c) Trash actions: a victim warns off a user who keeps touching him, then steps back and makes a “cross” gesture.</figcaption>
+      </figure>
+
+      <section class="detail-section" data-reveal>
+        <h2 class="detail-label">Methods</h2>
+        <p>We asked three questions: what safety risks people run into in social VR, how attackers, victims, bystanders, and spectators react to them, and which of those risks the platforms' safety features address. Study 1 answered the first two through a content analysis of YouTube videos; Study 2 answered the third.</p>
+        <ol class="method-flow">
+          <li class="method-step">
+            <strong>Study 1: Collecting first-person videos</strong>
+            Searched YouTube titles through its API for combinations of VR terms, platform names (VRChat, Rec Room, AltspaceVR, and Horizon Worlds), and words for safety risks such as harassment, toxic, and harm, in videos posted from January to June 2022. We kept first-person footage of several people socializing in a social VR app.
+            <br><span class="method-n">4,748 videos screened · 212 analyzed · 135 YouTubers</span>
+          </li>
+          <li class="method-step">
+            <strong>Coding risks, cues, and reactions</strong>
+            Built a codebook from prior taxonomies of online harassment and from categories of social cues (linguistic, paralinguistic, kinetic, proxemic, eye, and facial), refined it over eight rounds among three researchers, and checked inter-coder reliability. Two researchers then coded every video for its risk type and for the cues and reactions of each attacker, victim, and bystander.
+            <br><span class="method-n">≈ 14 minutes per video on average</span>
+          </li>
+          <li class="method-step">
+            <strong>Mining comments and transcripts</strong>
+            Sentiment analysis of viewers' comments captured how spectators saw each type of risk, and counts of censored and negative words in the transcripts showed how language differed across risk types.
+          </li>
+          <li class="method-step">
+            <strong>Study 2: Reviewing safety features</strong>
+            Reviewed the official safety documentation of four popular platforms (VRChat, Rec Room, Horizon Worlds, and AltspaceVR), then triggered each feature in Oculus Quest 2 headsets to verify it and to find ones the documentation missed.
+            <br><span class="method-n">13 safety features · 4 platforms</span>
+          </li>
+          <li class="method-step">
+            <strong>Mapping risks to features</strong>
+            Compared the cues that attackers and victims used in each type of risk with the cues each safety feature responds to, to locate the gaps.
+          </li>
+        </ol>
+      </section>
+
+      <section class="detail-section" data-reveal>
+        <h2 class="detail-label">Safety Risks</h2>
+        <p>We identified seven types of safety risk that echo harms elsewhere online but grow more severe with embodiment and immersion, along with five that are new to social VR.</p>
+        <figure class="project-figure project-figure--compact">
+          <div class="figure-frame">
+            <div class="risk-chart">
+              <p class="risk-chart-title">Videos by type of safety risk <span>212 videos, one risk type each</span></p>
+              <div class="risk-group">
+                <h3 class="risk-group-label">Familiar online risks, amplified</h3>
+                <ul class="risk-rows">
+                  <li class="risk-row" style="--v: 44"><span class="risk-name">Virtual abuse</span><span class="risk-track"><span class="risk-bar" aria-hidden="true"></span><span class="risk-value">44</span></span></li>
+                  <li class="risk-row" style="--v: 44"><span class="risk-name">Virtual scaring</span><span class="risk-track"><span class="risk-bar" aria-hidden="true"></span><span class="risk-value">44</span></span></li>
+                  <li class="risk-row" style="--v: 44"><span class="risk-name">Virtual trash actions</span><span class="risk-track"><span class="risk-bar" aria-hidden="true"></span><span class="risk-value">44</span></span></li>
+                  <li class="risk-row" style="--v: 40"><span class="risk-name">Virtual voice trolling</span><span class="risk-track"><span class="risk-bar" aria-hidden="true"></span><span class="risk-value">40</span></span></li>
+                  <li class="risk-row" style="--v: 15"><span class="risk-name">Virtual violence</span><span class="risk-track"><span class="risk-bar" aria-hidden="true"></span><span class="risk-value">15</span></span></li>
+                  <li class="risk-row" style="--v: 9"><span class="risk-name">Virtual sexual harassment</span><span class="risk-track"><span class="risk-bar" aria-hidden="true"></span><span class="risk-value">9</span></span></li>
+                  <li class="risk-row" style="--v: 7"><span class="risk-name">Virtual crashing</span><span class="risk-track"><span class="risk-bar" aria-hidden="true"></span><span class="risk-value">7</span></span></li>
+                </ul>
+              </div>
+              <div class="risk-group">
+                <h3 class="risk-group-label">New to social VR</h3>
+                <ul class="risk-rows">
+                  <li class="risk-row" style="--v: 9"><span class="risk-name">Five emerging risks</span><span class="risk-track"><span class="risk-bar" aria-hidden="true"></span><span class="risk-value">9</span></span></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <figcaption>How often each type of safety risk appeared across the 212 videos, from Table 3 and Figure 5 in the paper. Trash actions cover disruptive acts that fit no other category, such as following people around or mic spamming.</figcaption>
+        </figure>
+        <p>The five emerging risks grow out of social VR's still-forming norms: role-playing and impersonation, “immersive dwellers” who linger for hours in front of public mirrors or asleep in lobbies, misread cues, safety features turned against others (as when a group vote-kicked a user in a furry avatar), and minors picking on adults. Across all types, the risks were:</p>
+        <div class="finding-grid finding-grid--3">
+          <div class="finding">
+            <h3>Severe</h3>
+            <p>Virtual violence can set off real-world reactions. One victim slapped by another avatar fell to the floor in real life.</p>
+          </div>
+          <div class="finding">
+            <h3>Ambiguous</h3>
+            <p>Role-play blurs the line. When users posing as children at a daycare hit each other, bystanders couldn't tell if anyone was really hurt.</p>
+          </div>
+          <div class="finding">
+            <h3>Unexpected</h3>
+            <p>Attackers exploit physics that defy common sense, such as hiding beneath floors they can pass through and jumping out at people.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="detail-section" data-reveal>
+        <h2 class="detail-label">How People React</h2>
+        <div class="finding-grid">
+          <div class="finding">
+            <h3>Attackers stack cues to feel real</h3>
+            <p>In 60.4% of videos, attackers combined several social cues at once, such as threats, rushing in, and poking, and amplified them with scary custom avatars, groups in identical avatars, and virtual weapons.</p>
+          </div>
+          <div class="finding">
+            <h3>Victims defend themselves as if it were physical</h3>
+            <p>Victims covered their ears, eyes, and heads, stepped back, or ran, often screaming. Only 13.6% fought back, and many who said “ban this guy” or “I'm gonna mute him” never actually used a safety feature.</p>
+          </div>
+          <div class="finding">
+            <h3>Bystanders mostly watch, but watching matters</h3>
+            <p>Bystanders appeared in about a quarter of the videos and mostly looked on, ignored the attack, or laughed. Still, one attacker stopped as soon as he noticed a bystander watching.</p>
+          </div>
+          <div class="finding">
+            <h3>Spectators read some risks as entertainment</h3>
+            <p>In YouTube comments, voice trolling drew the most positive reactions (27.4%) and sexual harassment the most negative (13.7%), with many viewers sharing their own experiences of being harassed.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="detail-section" data-reveal>
+        <h2 class="detail-label">Where Safety Features Fall Short</h2>
+        <p>Across the four platforms, we found 13 safety features that act at three moments: boundary settings before harm, quick reactions after it, and agreements that apply all the time.</p>
+        <figure class="project-figure project-figure--compact">
+          <div class="figure-frame">
+            <div class="feature-map">
+              <div class="feature-col">
+                <h3 class="feature-col-title"><span>Before harm</span>Boundary settings</h3>
+                <ul>
+                  <li><span class="feature-name">Personal boundary</span><span class="cue cue--key">Proxemics</span></li>
+                  <li><span class="feature-name">Trust reputation</span><span class="cue cue--key">Proxemics</span></li>
+                  <li><span class="feature-name">Social spaces</span><span class="cue cue--key">Proxemics</span></li>
+                  <li><span class="feature-name">Shield levels</span><span class="cue cue--key">Proxemics</span></li>
+                  <li><span class="feature-name">Voice control</span><span class="cue">Paralinguistic</span></li>
+                  <li><span class="feature-name">Avatar control</span><span class="cue">Eyes &amp; face</span></li>
+                  <li><span class="feature-name">Age limits</span><span class="cue cue--none">No cue</span></li>
+                </ul>
+              </div>
+              <div class="feature-col">
+                <h3 class="feature-col-title"><span>After harm</span>Quick reactions</h3>
+                <ul>
+                  <li><span class="feature-name">Safety gestures</span><span class="cue">Kinetic</span></li>
+                  <li><span class="feature-name">Safety zone</span><span class="cue cue--key">Proxemics</span></li>
+                  <li><span class="feature-name">Vote kick</span><span class="cue cue--key">Proxemics</span></li>
+                  <li><span class="feature-name">Safety reports</span><span class="cue cue--none">No cue</span></li>
+                </ul>
+              </div>
+              <div class="feature-col">
+                <h3 class="feature-col-title"><span>All the time</span>Agreements</h3>
+                <ul>
+                  <li><span class="feature-name">Codes of conduct</span><span class="cue cue--none">No cue</span></li>
+                  <li><span class="feature-name">Informed consent</span><span class="cue cue--none">No cue</span></li>
+                </ul>
+              </div>
+              <p class="feature-tally"><strong>6 of 13</strong> features rely on proxemics, and only one each on paralinguistic, kinetic, or eye-and-face cues. <strong>None</strong> respond to linguistic cues: what people actually say.</p>
+            </div>
+          </div>
+          <figcaption>The 13 safety features and the social cue each one works through, redrawn from Table 5 in the paper. Proxemics, the management of distance and personal space, dominates.</figcaption>
+        </figure>
+        <p>Mapping these features against the risks from Study 1 revealed three gaps:</p>
+        <ul class="impact-list">
+          <li><span class="stat">Centered on proximity.</span> Personal-space tools can't reach risks that hinge on words and voice, like sexual harassment and voice trolling, or on gestures and movement, like violence and scaring.</li>
+          <li><span class="stat">Few natural gestures.</span> Only Rec Room's “talk to the hand” stop gesture works as a safety shortcut, so flustered victims must open menus mid-attack, even though they instinctively cover their ears and heads.</li>
+          <li><span class="stat">Reactive, not preventive.</span> Nearly every feature acts only after harm occurs, although attackers' cues, such as certain phrases or harmful gestures, could flag risks before they land.</li>
+        </ul>
+      </section>
+
+      <section class="detail-section" data-reveal>
+        <h2 class="detail-label">Design Implications</h2>
+        <p>We proposed safety designs that build on what attackers and victims actually do, sketched as scenarios in the paper.</p>
+        <figure class="project-figure project-figure--compact">
+          <div class="figure-frame">
+            <img src="../Images/social-vr-gestures.jpg" width="1600" height="856" alt="Two three-step scenarios. (a) User-1 finds a screaming user too noisy, covers their ears for three seconds, and the world goes quiet as a mute icon appears. (b) User-2 reaches into User-1's personal boundary; User-1 makes a push-away gesture, and User-2 is pushed back outside the boundary.">
+          </div>
+          <figcaption>Gesture-based safety designs (Figure 7 in the paper). (a) Covering your ears for three seconds mutes a user who is screaming. (b) A push-away gesture moves an intruder back out of your personal boundary.</figcaption>
+        </figure>
+        <div class="finding-grid finding-grid--3">
+          <div class="finding">
+            <h3>NPCs as safety companions</h3>
+            <p>A non-player character teaches safety gestures in a practice mode, and patrolling “mediator” NPCs, more of them where reports pile up, deter attacks the way watching bystanders did.</p>
+          </div>
+          <div class="finding">
+            <h3>Natural gestures as triggers</h3>
+            <p>Cover your ears to mute the noise around you, cover your eyes to highlight who is attacking, or push an intruder away to set your own boundary.</p>
+          </div>
+          <div class="finding">
+            <h3>Avatar and voice shields</h3>
+            <p>Warn users who pick a frightening avatar, show it to others in public spaces only as a translucent outline, and keep corpse-like voices to the games made for them.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="detail-section" data-reveal>
+        <h2 class="detail-label">Contributions</h2>
+        <ul class="impact-list">
+          <li>Showed that <span class="stat">first-person YouTube videos</span> can capture safety risks in the moment, with the setting, objects, and bystanders in view, rather than as recalled later in interviews or surveys.</li>
+          <li>Built a <span class="stat">shared vocabulary</span> of seven types of safety risk and five emerging ones, along with the social cues attackers and victims use in each.</li>
+          <li>Took a first step toward <span class="stat">evaluating safety features against real risks</span>, mapping 13 features across four platforms and showing where they fall short.</li>
+          <li>Proposed <span class="stat">gesture- and avatar-based safety designs</span> grounded in how victims instinctively react.</li>
+        </ul>
+      </section>
+
+      <section class="detail-section" data-reveal>
+        <h2 class="detail-label">My Role</h2>
+        <p>Co-second author with Shengyang Xu (equal contribution). I worked with Qingxiao Zheng and Prof. Yun Huang at the University of Illinois Urbana-Champaign and Prof. Guo Freeman at Clemson University while studying industrial engineering at Tsinghua University.</p>
+        <p>I took initiative throughout the project and contributed to collecting and screening the YouTube videos, building the codebook and coding the safety risks and social cues, reviewing the platforms' safety features, mapping the risks against the features, and developing the design implications.</p>
+      </section>
+
+      <section class="detail-section" data-reveal>
+        <h2 class="detail-label">Cite</h2>
+        <div class="cite-block">
+          <p id="cite-text">Qingxiao Zheng, Shengyang Xu, Lingqing Wang, Yiliu Tang, Rohan C. Salvi, Guo Freeman, and Yun Huang. 2023. Understanding Safety Risks and Safety Design in Social VR Environments. <em>Proc. ACM Hum.-Comput. Interact.</em> 7, CSCW1, Article 154 (April 2023), 37 pages. https://doi.org/10.1145/3579630</p>
+          <button class="cite-copy" type="button" data-copy="cite-text">Copy</button>
+        </div>
+      </section>
+
+      <div class="project-links">
+        <a href="https://doi.org/10.1145/3579630" target="_blank" rel="noopener" class="btn btn--solid">Read the paper ↗</a>
+      </div>
+
+      <nav class="project-pager" aria-label="More projects">
+        <a class="prev" href="project-equality-engine.html"><small>Previous project</small>← Equality Engine</a>
+      </nav>
+    </article>
+  </main>
+
+  <script src="../script.js"></script>
+</body>
+</html>

@@ -101,6 +101,37 @@
     });
   });
 
+  /* Scrollable news: fade whichever edge has more items beyond it */
+  function watchNewsScroll(box) {
+    function update() {
+      var max = box.scrollHeight - box.clientHeight;
+      box.classList.toggle("can-scroll-up", box.scrollTop > 2);
+      box.classList.toggle("can-scroll-down", box.scrollTop < max - 2);
+    }
+    box.addEventListener("scroll", update, { passive: true });
+    window.addEventListener("resize", update);
+    update();
+    return update;
+  }
+
+  /* The home page's news window loads its items from news.html,
+     so news only has to be written in one place. */
+  document.querySelectorAll(".news-scroll").forEach(function (box) {
+    var update = watchNewsScroll(box);
+    var src = box.getAttribute("data-news-src");
+    if (!src || !window.fetch || !window.DOMParser) return;
+    fetch(src).then(function (res) {
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      return res.text();
+    }).then(function (html) {
+      var list = new DOMParser().parseFromString(html, "text/html").querySelector(".news-list");
+      if (!list) return;
+      list.removeAttribute("data-reveal");
+      box.replaceChildren(document.importNode(list, true));
+      update();
+    }).catch(function () { /* keep the "See the latest news" link */ });
+  });
+
   /* Current year in the footer */
   document.querySelectorAll("[data-year]").forEach(function (el) {
     el.textContent = new Date().getFullYear();

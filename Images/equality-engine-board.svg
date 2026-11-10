@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 760" width="1040" height="760" role="img" aria-label="The Equality Engine game board. A hiring system&#x27;s pipeline runs in a loop from the state of the world to a sample, a dataset, algorithms, and job applications, and each stage has a card slot for its bias type: historical, representation, measurement, modeling, and deployment. The corners hold the Discover Bias and Debias decks, the Take Actions areas (student pool +10, preventive measure +30), and a leaderboard.">
+<title>The Equality Engine game board. A hiring system&#x27;s pipeline runs in a loop from the state of the world to a sample, a dataset, algorithms, and job applications, and each stage has a card slot for its bias type: historical, representation, measurement, modeling, and deployment. The corners hold the Discover Bias and Debias decks, the Take Actions areas (student pool +10, preventive measure +30), and a leaderboard.</title>
+<defs>
+<style>@font-face{font-family:'EE Serif';font-weight:600;font-style:normal;src:url(data:font/woff2;base64,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) format('woff2')}
+@font-face{font-family:'EE Serif Italic';font-weight:500;font-style:italic;src:url(data:font/woff2;base64,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) format('woff2')}
+.dp{font-family:Manrope, Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif}.s{font-family:Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif}.f{font-family:'EE Serif', 'Cormorant Garamond', Georgia, 'Times New Roman', serif;font-variant-numeric:lining-nums}.fi{font-family:'EE Serif Italic', 'Cormorant Garamond', Georgia, 'Times New Roman', serif;font-style:italic}</style>
+<marker id="arw" viewBox="0 0 10 10" refX="7.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="12" markerHeight="12" orient="auto-start-reverse"><path d="M1.5 1.5L8 5L1.5 8.5" fill="none" stroke="#78836b" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<clipPath id="n0"><circle cx="520" cy="210" r="44"/></clipPath>
+<clipPath id="n1"><circle cx="350.7" cy="333" r="44"/></clipPath>
+<clipPath id="n2"><circle cx="415.4" cy="532" r="44"/></clipPath>
+<clipPath id="n3"><circle cx="624.6" cy="532" r="44"/></clipPath>
+<clipPath id="n4"><circle cx="689.3" cy="333" r="44"/></clipPath>
+</defs>
+<rect x="6" y="6" width="1028" height="748" rx="26" fill="#ecf2e4" stroke="#d5dbcd" stroke-width="1.5"/>
+<circle cx="520" cy="388" r="178" fill="none" stroke="#fafcf8" stroke-width="30"/>
+<circle cx="520" cy="388" r="193" fill="none" stroke="#d9ded2" stroke-width="1"/>
+<circle cx="520" cy="388" r="163" fill="none" stroke="#d9ded2" stroke-width="1"/>
+<path d="M462 219.7A178 178 0 0 0 377.8 280.9" fill="none" stroke="#78836b" stroke-width="2" stroke-linecap="round" marker-end="url(#arw)"/>
+<path d="M342 391.1A178 178 0 0 0 374.2 490.1" fill="none" stroke="#78836b" stroke-width="2" stroke-linecap="round" marker-end="url(#arw)"/>
+<path d="M468 558.2A178 178 0 0 0 572 558.2" fill="none" stroke="#78836b" stroke-width="2" stroke-linecap="round" marker-end="url(#arw)"/>
+<path d="M665.8 490.1A178 178 0 0 0 698 391.1" fill="none" stroke="#78836b" stroke-width="2" stroke-linecap="round" marker-end="url(#arw)"/>
+<path d="M662.2 280.9A178 178 0 0 0 578 219.7" fill="none" stroke="#78836b" stroke-width="2" stroke-linecap="round" marker-end="url(#arw)"/>
+<text class="s" x="520" y="384" font-size="11.5" font-weight="600" text-anchor="middle" letter-spacing="2.2" fill="#4a7a23">HIRING PIPELINE</text>
+<text class="fi" x="520" y="408" font-size="19" font-weight="500" text-anchor="middle" fill="#4f5a45">where bias creeps in</text>
+<circle cx="520" cy="210" r="46" fill="#ffffff" stroke="#2a3324" stroke-width="1.8"/>
+<circle cx="350.7" cy="333" r="46" fill="#ffffff" stroke="#2a3324" stroke-width="1.8"/>
+<circle cx="415.4" cy="532" r="46" fill="#ffffff" stroke="#2a3324" stroke-width="1.8"/>
+<circle cx="624.6" cy="532" r="46" fill="#ffffff" stroke="#2a3324" stroke-width="1.8"/>
+<circle cx="689.3" cy="333" r="46" fill="#ffffff" stroke="#2a3324" stroke-width="1.8"/>
+<g clip-path="url(#n0)">
+<path d="M489.8 213.5C489.8 202.9 494.8 200.9 501 200.9C507.2 200.9 512.2 202.9 512.2 213.5Z" fill="#d9aa82" stroke="#ffffff" stroke-width="2"/>
+<circle cx="501" cy="193" r="6.2" fill="#d9aa82" stroke="#ffffff" stroke-width="2"/>
+<path d="M508.8 209.5C508.8 198.9 513.8 196.9 520 196.9C526.2 196.9 531.2 198.9 531.2 209.5Z" fill="#e8c7a3" stroke="#ffffff" stroke-width="2"/>
+<circle cx="520" cy="189" r="6.2" fill="#e8c7a3" stroke="#ffffff" stroke-width="2"/>
+<path d="M527.8 213.5C527.8 202.9 532.8 200.9 539 200.9C545.2 200.9 550.2 202.9 550.2 213.5Z" fill="#b8825a" stroke="#ffffff" stroke-width="2"/>
+<circle cx="539" cy="193" r="6.2" fill="#b8825a" stroke="#ffffff" stroke-width="2"/>
+<path d="M496.3 232.1C496.3 219.2 502.4 216.7 510 216.7C517.6 216.7 523.7 219.2 523.7 232.1Z" fill="#8a5a3c" stroke="#ffffff" stroke-width="2.4"/>
+<circle cx="510" cy="207" r="7.6" fill="#8a5a3c" stroke="#ffffff" stroke-width="2.4"/>
+<path d="M516.3 232.1C516.3 219.2 522.4 216.7 530 216.7C537.6 216.7 543.7 219.2 543.7 232.1Z" fill="#5d3c2a" stroke="#ffffff" stroke-width="2.4"/>
+<circle cx="530" cy="207" r="7.6" fill="#5d3c2a" stroke="#ffffff" stroke-width="2.4"/>
+</g>
+<g clip-path="url(#n1)">
+<path d="M325.1 343.1C325.1 331.2 330.7 329 337.7 329C344.7 329 350.3 331.2 350.3 343.1Z" fill="#e8c7a3" stroke="#ffffff" stroke-width="2.2"/>
+<circle cx="337.7" cy="320" r="7" fill="#e8c7a3" stroke="#ffffff" stroke-width="2.2"/>
+<path d="M351.1 343.1C351.1 331.2 356.7 329 363.7 329C370.7 329 376.3 331.2 376.3 343.1Z" fill="#b8825a" stroke="#ffffff" stroke-width="2.2"/>
+<circle cx="363.7" cy="320" r="7" fill="#b8825a" stroke="#ffffff" stroke-width="2.2"/>
+<path d="M335.6 355.7C335.6 341.4 342.3 338.7 350.7 338.7C359.1 338.7 365.8 341.4 365.8 355.7Z" fill="#8a5a3c" stroke="#ffffff" stroke-width="2.7"/>
+<circle cx="350.7" cy="328" r="8.4" fill="#8a5a3c" stroke="#ffffff" stroke-width="2.7"/>
+</g>
+<path d="M396.4 514V550A19 6.5 0 0 0 434.4 550V514Z" fill="#ffffff" stroke="#2a3324" stroke-width="1.8" stroke-linejoin="round"/>
+<path d="M396.4 526A19 6.5 0 0 0 434.4 526" fill="none" stroke="#2a3324" stroke-width="1.8"/>
+<path d="M396.4 538A19 6.5 0 0 0 434.4 538" fill="none" stroke="#2a3324" stroke-width="1.8"/>
+<ellipse cx="415.4" cy="514" rx="19" ry="6.5" fill="#ebf1e2" stroke="#2a3324" stroke-width="1.8"/>
+<circle cx="425.4" cy="524.5" r="1.9" fill="#4a7a23"/>
+<circle cx="425.4" cy="536.5" r="1.9" fill="#4a7a23"/>
+<circle cx="425.4" cy="548.5" r="1.9" fill="#4a7a23"/>
+<line x1="606.6" y1="519" x2="624.6" y2="514" stroke="#e0ead2" stroke-width="1.2"/>
+<line x1="606.6" y1="519" x2="624.6" y2="526" stroke="#e0ead2" stroke-width="1.2"/>
+<line x1="606.6" y1="519" x2="624.6" y2="538" stroke="#e0ead2" stroke-width="1.2"/>
+<line x1="606.6" y1="519" x2="624.6" y2="550" stroke="#e0ead2" stroke-width="1.2"/>
+<line x1="606.6" y1="532" x2="624.6" y2="514" stroke="#e0ead2" stroke-width="1.2"/>
+<line x1="606.6" y1="532" x2="624.6" y2="526" stroke="#e0ead2" stroke-width="1.2"/>
+<line x1="606.6" y1="532" x2="624.6" y2="538" stroke="#e0ead2" stroke-width="1.2"/>
+<line x1="606.6" y1="532" x2="624.6" y2="550" stroke="#e0ead2" stroke-width="1.2"/>
+<line x1="606.6" y1="545" x2="624.6" y2="514" stroke="#e0ead2" stroke-width="1.2"/>
+<line x1="606.6" y1="545" x2="624.6" y2="526" stroke="#e0ead2" stroke-width="1.2"/>
+<line x1="606.6" y1="545" x2="624.6" y2="538" stroke="#e0ead2" stroke-width="1.2"/>
+<line x1="606.6" y1="545" x2="624.6" y2="550" stroke="#e0ead2" stroke-width="1.2"/>
+<line x1="624.6" y1="514" x2="642.6" y2="525" stroke="#e0ead2" stroke-width="1.2"/>
+<line x1="624.6" y1="514" x2="642.6" y2="539" stroke="#e0ead2" stroke-width="1.2"/>
+<line x1="624.6" y1="526" x2="642.6" y2="525" stroke="#e0ead2" stroke-width="1.2"/>
+<line x1="624.6" y1="526" x2="642.6" y2="539" stroke="#e0ead2" stroke-width="1.2"/>
+<line x1="624.6" y1="538" x2="642.6" y2="525" stroke="#e0ead2" stroke-width="1.2"/>
+<line x1="624.6" y1="538" x2="642.6" y2="539" stroke="#e0ead2" stroke-width="1.2"/>
+<line x1="624.6" y1="550" x2="642.6" y2="525" stroke="#e0ead2" stroke-width="1.2"/>
+<line x1="624.6" y1="550" x2="642.6" y2="539" stroke="#e0ead2" stroke-width="1.2"/>
+<circle cx="606.6" cy="519" r="4" fill="#2a3324"/>
+<circle cx="606.6" cy="532" r="4" fill="#2a3324"/>
+<circle cx="606.6" cy="545" r="4" fill="#2a3324"/>
+<circle cx="624.6" cy="514" r="4" fill="#2a3324"/>
+<circle cx="624.6" cy="526" r="4" fill="#2a3324"/>
+<circle cx="624.6" cy="538" r="4" fill="#2a3324"/>
+<circle cx="624.6" cy="550" r="4" fill="#2a3324"/>
+<circle cx="642.6" cy="525" r="4" fill="#4a7a23"/>
+<circle cx="642.6" cy="539" r="4" fill="#4a7a23"/>
+<path d="M670.3 314Q670.3 311 673.3 311H695.3L704.3 320V352Q704.3 355 701.3 355H673.3Q670.3 355 670.3 352Z" fill="#ffffff" stroke="#2a3324" stroke-width="1.8" stroke-linejoin="round"/>
+<circle cx="680.3" cy="323" r="4.6" fill="#b8825a"/>
+<rect x="688.3" y="320" width="9" height="2.6" rx="1.3" fill="#e0ead2"/>
+<rect x="688.3" y="325" width="7" height="2.6" rx="1.3" fill="#e0ead2"/>
+<rect x="676.3" y="334" width="22" height="2.6" rx="1.3" fill="#e0ead2"/>
+<rect x="676.3" y="340" width="22" height="2.6" rx="1.3" fill="#e0ead2"/>
+<rect x="676.3" y="346" width="17" height="2.6" rx="1.3" fill="#e0ead2"/>
+<circle cx="704.3" cy="348" r="10" fill="#4a7a23" stroke="#ffffff" stroke-width="2.5"/>
+<path d="M700.1 348.2L703.1 351.2L708.7 345" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="f" x="520" y="283" font-size="22" font-weight="600" text-anchor="middle" fill="#2a3324">State of the world</text>
+<text class="f" x="409.7" y="339" font-size="22" font-weight="600" fill="#2a3324">Sample</text>
+<text class="f" x="415.4" y="473" font-size="22" font-weight="600" text-anchor="middle" fill="#2a3324">Dataset</text>
+<text class="f" x="624.6" y="473" font-size="22" font-weight="600" text-anchor="middle" fill="#2a3324">Algorithms</text>
+<text class="f" x="630.3" y="328" font-size="22" font-weight="600" text-anchor="end" fill="#2a3324">Job</text>
+<text class="f" x="630.3" y="350" font-size="22" font-weight="600" text-anchor="end" fill="#2a3324">applications</text>
+<text class="s" x="520" y="82" font-size="16" font-weight="600" text-anchor="middle" fill="#2b7250">Historical bias</text>
+<rect x="458" y="94" width="36" height="50" rx="5" fill="#c9e1d5" stroke="#2f8a5f" stroke-width="1.6"/>
+<rect x="502" y="94" width="36" height="50" rx="5" fill="#ffffff" stroke="#2f8a5f" stroke-width="1.6" stroke-dasharray="4 3.5"/>
+<rect x="546" y="94" width="36" height="50" rx="5" fill="#ffffff" stroke="#2f8a5f" stroke-width="1.6" stroke-dasharray="4 3.5"/>
+<rect x="465" y="103" width="22" height="3" rx="1.5" fill="#2f8a5f" opacity=".55"/>
+<rect x="465" y="110" width="16" height="3" rx="1.5" fill="#2f8a5f" opacity=".35"/>
+<text class="s" x="206.4" y="307.5" font-size="16" font-weight="600" text-anchor="middle" fill="#356c90">Representation bias</text>
+<rect x="144.4" y="319.5" width="36" height="50" rx="5" fill="#cde2f0" stroke="#3f8fc4" stroke-width="1.6"/>
+<rect x="188.4" y="319.5" width="36" height="50" rx="5" fill="#ffffff" stroke="#3f8fc4" stroke-width="1.6" stroke-dasharray="4 3.5"/>
+<rect x="232.4" y="319.5" width="36" height="50" rx="5" fill="#ffffff" stroke="#3f8fc4" stroke-width="1.6" stroke-dasharray="4 3.5"/>
+<rect x="151.4" y="328.5" width="22" height="3" rx="1.5" fill="#3f8fc4" opacity=".55"/>
+<rect x="151.4" y="335.5" width="16" height="3" rx="1.5" fill="#3f8fc4" opacity=".35"/>
+<text class="s" x="403.4" y="613" font-size="16" font-weight="600" text-anchor="middle" fill="#44509c">Measurement bias</text>
+<rect x="341.4" y="625" width="36" height="50" rx="5" fill="#ced2e5" stroke="#44509c" stroke-width="1.6"/>
+<rect x="385.4" y="625" width="36" height="50" rx="5" fill="#ffffff" stroke="#44509c" stroke-width="1.6" stroke-dasharray="4 3.5"/>
+<rect x="429.4" y="625" width="36" height="50" rx="5" fill="#ffffff" stroke="#44509c" stroke-width="1.6" stroke-dasharray="4 3.5"/>
+<rect x="348.4" y="634" width="22" height="3" rx="1.5" fill="#44509c" opacity=".55"/>
+<rect x="348.4" y="641" width="16" height="3" rx="1.5" fill="#44509c" opacity=".35"/>
+<text class="s" x="636.6" y="613" font-size="16" font-weight="600" text-anchor="middle" fill="#ad3a33">Modeling bias</text>
+<rect x="574.6" y="625" width="36" height="50" rx="5" fill="#eaccca" stroke="#ad3a33" stroke-width="1.6"/>
+<rect x="618.6" y="625" width="36" height="50" rx="5" fill="#ffffff" stroke="#ad3a33" stroke-width="1.6" stroke-dasharray="4 3.5"/>
+<rect x="662.6" y="625" width="36" height="50" rx="5" fill="#ffffff" stroke="#ad3a33" stroke-width="1.6" stroke-dasharray="4 3.5"/>
+<rect x="581.6" y="634" width="22" height="3" rx="1.5" fill="#ad3a33" opacity=".55"/>
+<rect x="581.6" y="641" width="16" height="3" rx="1.5" fill="#ad3a33" opacity=".35"/>
+<text class="s" x="820.5" y="307.5" font-size="16" font-weight="600" text-anchor="middle" fill="#8a5d19">Deployment bias</text>
+<rect x="758.5" y="319.5" width="36" height="50" rx="5" fill="#eedec3" stroke="#bf7f1a" stroke-width="1.6"/>
+<rect x="802.5" y="319.5" width="36" height="50" rx="5" fill="#ffffff" stroke="#bf7f1a" stroke-width="1.6" stroke-dasharray="4 3.5"/>
+<rect x="846.5" y="319.5" width="36" height="50" rx="5" fill="#ffffff" stroke="#bf7f1a" stroke-width="1.6" stroke-dasharray="4 3.5"/>
+<rect x="765.5" y="328.5" width="22" height="3" rx="1.5" fill="#bf7f1a" opacity=".55"/>
+<rect x="765.5" y="335.5" width="16" height="3" rx="1.5" fill="#bf7f1a" opacity=".35"/>
+<rect x="26" y="26" width="250" height="180" rx="16" fill="#ffffff" stroke="#d9ded2" stroke-width="1.2"/>
+<circle cx="52" cy="56" r="13" fill="#fcf7df"/>
+<text class="s" x="52" y="60.6" font-size="13" font-weight="600" text-anchor="middle" fill="#3d4f1c">1</text>
+<text class="s" x="74" y="61.5" font-size="16.5" font-weight="600" fill="#2a3324">Discover bias</text>
+<rect x="225" y="45" width="33" height="22" rx="11.0" fill="#fcf7df"/>
+<text class="s" x="241.5" y="60.5" font-size="12.5" font-weight="600" text-anchor="middle" fill="#3d4f1c">+5</text>
+<rect x="86" y="84" width="72" height="98" rx="8" fill="#aec39c"/>
+<rect x="82" y="88" width="72" height="98" rx="8" fill="#7d9f61"/>
+<rect x="78" y="92" width="72" height="98" rx="8" fill="#4a7a23"/>
+<rect x="83" y="97" width="62" height="88" rx="5" fill="none" stroke="#ffffff" stroke-opacity=".35" stroke-width="1"/>
+<text class="f" x="114" y="148" font-size="27" font-weight="600" text-anchor="middle" fill="#ffffff">Bias</text>
+<rect x="166" y="92" width="72" height="98" rx="8" fill="none" stroke="#78836b" stroke-width="1.4" stroke-dasharray="5 4"/>
+<path d="M202 126v18m-6-6l6 6l6-6" fill="none" stroke="#e0ead2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="s" x="202" y="164" font-size="10" font-weight="600" text-anchor="middle" letter-spacing="1.2" fill="#78836b">DEPOSIT</text>
+<rect x="764" y="26" width="250" height="180" rx="16" fill="#ffffff" stroke="#d9ded2" stroke-width="1.2"/>
+<circle cx="790" cy="56" r="13" fill="#fcf7df"/>
+<text class="s" x="790" y="60.6" font-size="13" font-weight="600" text-anchor="middle" fill="#3d4f1c">2</text>
+<text class="s" x="812" y="61.5" font-size="16.5" font-weight="600" fill="#2a3324">Debias</text>
+<rect x="963" y="45" width="33" height="22" rx="11.0" fill="#fcf7df"/>
+<text class="s" x="979.5" y="60.5" font-size="12.5" font-weight="600" text-anchor="middle" fill="#3d4f1c">+5</text>
+<rect x="824" y="84" width="72" height="98" rx="8" fill="#9fa39c"/>
+<rect x="820" y="88" width="72" height="98" rx="8" fill="#666c61"/>
+<rect x="816" y="92" width="72" height="98" rx="8" fill="#2a3324"/>
+<rect x="821" y="97" width="62" height="88" rx="5" fill="none" stroke="#f7ebaa" stroke-opacity=".35" stroke-width="1"/>
+<text class="f" x="852" y="148" font-size="22" font-weight="600" text-anchor="middle" fill="#f7ebaa">Debias</text>
+<rect x="904" y="92" width="72" height="98" rx="8" fill="none" stroke="#78836b" stroke-width="1.4" stroke-dasharray="5 4"/>
+<path d="M940 126v18m-6-6l6 6l6-6" fill="none" stroke="#e0ead2" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text class="s" x="940" y="164" font-size="10" font-weight="600" text-anchor="middle" letter-spacing="1.2" fill="#78836b">DEPOSIT</text>
+<rect x="26" y="538" width="250" height="196" rx="16" fill="#ffffff" stroke="#d9ded2" stroke-width="1.2"/>
+<path d="M45 561h14v4a7 7 0 0 1-14 0z" fill="#4a7a23"/><path d="M45 563h-3.5a3.5 3.5 0 0 0 3.5 4.5M59 563h3.5a3.5 3.5 0 0 1-3.5 4.5" fill="none" stroke="#4a7a23" stroke-width="1.6"/><rect x="50.5" y="571" width="3" height="4" fill="#4a7a23"/><rect x="46.5" y="575" width="11" height="2.6" rx="1.2" fill="#4a7a23"/>
+<text class="s" x="74" y="573.5" font-size="16.5" font-weight="600" fill="#2a3324">Leaderboard</text>
+<text class="s" x="56" y="609.5" font-size="14" font-weight="600" text-anchor="middle" fill="#78836b">1</text>
+<rect x="74" y="596" width="150" height="18" rx="9" fill="#ebf1e2"/>
+<text class="s" x="56" y="636.5" font-size="14" font-weight="600" text-anchor="middle" fill="#78836b">2</text>
+<rect x="74" y="623" width="122" height="18" rx="9" fill="#ebf1e2"/>
+<text class="s" x="56" y="663.5" font-size="14" font-weight="600" text-anchor="middle" fill="#78836b">3</text>
+<rect x="74" y="650" width="96" height="18" rx="9" fill="#ebf1e2"/>
+<text class="s" x="46" y="694" font-size="12.5" fill="#4f5a45">After three rounds, each bias card</text>
+<text class="s" x="46" y="711" font-size="12.5" fill="#4f5a45">still on the board costs 5 points.</text>
+<rect x="764" y="538" width="250" height="196" rx="16" fill="#ffffff" stroke="#d9ded2" stroke-width="1.2"/>
+<circle cx="790" cy="568" r="13" fill="#fcf7df"/>
+<text class="s" x="790" y="572.6" font-size="13" font-weight="600" text-anchor="middle" fill="#3d4f1c">3</text>
+<text class="s" x="812" y="573.5" font-size="16.5" font-weight="600" fill="#2a3324">Take actions</text>
+<rect x="963" y="557" width="33" height="22" rx="11.0" fill="#fcf7df"/>
+<text class="s" x="979.5" y="572.5" font-size="12.5" font-weight="600" text-anchor="middle" fill="#3d4f1c">×2</text>
+<rect x="778" y="596" width="222" height="62" rx="31" fill="#ffffff"/>
+<text class="s" x="828" y="623" font-size="14.5" font-weight="600" fill="#2a3324">Student pool</text>
+<text class="s" x="828" y="642" font-size="12.5" fill="#4f5a45"><tspan font-weight="600" fill="#4a7a23">+10</tspan><tspan> per student hired</tspan></text>
+<circle cx="797" cy="622" r="7" fill="#8a5a3c" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="811" cy="622" r="7" fill="#b8825a" stroke="#ffffff" stroke-width="1.5"/>
+<circle cx="804" cy="634" r="7" fill="#5d3c2a" stroke="#ffffff" stroke-width="1.5"/>
+<rect x="778" y="666" width="222" height="62" rx="31" fill="#ffffff"/>
+<text class="s" x="828" y="693" font-size="14.5" font-weight="600" fill="#2a3324">Preventive measure</text>
+<text class="s" x="828" y="712" font-size="12.5" fill="#4f5a45"><tspan font-weight="600" fill="#4a7a23">+30</tspan><tspan> for 3 debias cards</tspan></text>
+<path d="M804 684l11 4v7c0 7-5 11.5-11 14c-6-2.5-11-7-11-14v-7z" fill="#2a3324"/><path d="M799.5 697.5l3 3l6-6.5" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

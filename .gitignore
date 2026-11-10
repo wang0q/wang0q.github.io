@@ -5,6 +5,10 @@
 Resume*.pdf
 3772318.3790279*.pdf
 3710966*.pdf
+3579630*.pdf
 
 # CV working files, including other people's CVs kept as references
 Resume/
+
+# Python cache from the figure scripts
+__pycache__/

@@ -1,0 +1,26 @@
+/*
+ * Palette: Matcha and lemon
+ * Bright spring: matcha-green dark sections, lemon accent, leaf-green links, white page.
+ *
+ * Favicon to use with it: Images/favicon-matcha.svg (circle #4a6b3a, letter #ffffff).
+ *
+ * Every palette file defines the same tokens. See style.css for how to switch.
+ * --blush and --clay keep their original names; here they hold lemon and leaf green.
+ * Lemon is too pale for thin lines on white, so --accent-line uses a deeper lemon.
+ */
+:root {
+  --ink: #2a3324;          /* main text */
+  --dark: #4a6b3a;         /* dark section, solid button and mobile menu background (matcha) */
+  --ink-soft: #4f5a45;     /* secondary text on light backgrounds */
+  --stone: #78836b;        /* rules, large muted text */
+  --sand: #e0ead2;         /* secondary text on dark backgrounds */
+  --paper: #ffffff;        /* page background */
+  --paper-deep: #ebf1e2;   /* subtle fills */
+  --card: #f3f7ec;         /* figure frames, finding cards, cite block */
+  --blush: #f4e285;        /* accent on dark backgrounds, fills (lemon) */
+  --accent-line: #c8ab2a;  /* accent for underlines, borders, bullets and bars on light backgrounds */
+  --clay: #4a7a23;         /* accent for text on light backgrounds (leaf green) */
+  --clay-deep: #3d4f1c;    /* text on lemon fills */
+  --line: rgba(42, 51, 36, 0.14);
+  --line-on-dark: rgba(255, 255, 255, 0.14);
+}

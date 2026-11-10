@@ -1,0 +1,26 @@
+/*
+ * Palette: Autumn
+ * Espresso text, brown dark sections, honey accent, rust-brown links, white page.
+ * Base colors: #563727, #372C2E, #FFFFFF, #DE9E48, #7A431D.
+ *
+ * Favicon to use with it: Images/favicon-autumn.svg (circle #563727, letter #ffffff).
+ *
+ * Every palette file defines the same tokens. See style.css for how to switch.
+ * --blush and --clay keep their original names; here they hold honey and rust-brown.
+ */
+:root {
+  --ink: #372c2e;          /* main text (espresso) */
+  --dark: #563727;         /* dark section, solid button and mobile menu background (brown) */
+  --ink-soft: #563727;     /* secondary text on light backgrounds */
+  --stone: #8c7b72;        /* rules, large muted text */
+  --sand: #d9c6b3;         /* secondary text on dark backgrounds */
+  --paper: #ffffff;        /* page background */
+  --paper-deep: #f6ede2;   /* subtle fills */
+  --card: #fbf5ee;         /* figure frames, finding cards, cite block */
+  --blush: #de9e48;        /* accent on dark backgrounds, fills (honey) */
+  --accent-line: #de9e48;  /* accent for underlines, borders, bullets and bars on light backgrounds */
+  --clay: #7a431d;         /* accent for text on light backgrounds (rust-brown) */
+  --clay-deep: #563727;    /* text on honey fills */
+  --line: rgba(55, 44, 46, 0.14);
+  --line-on-dark: rgba(255, 255, 255, 0.14);
+}

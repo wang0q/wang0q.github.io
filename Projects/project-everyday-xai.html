@@ -8,7 +8,7 @@
   <link rel="icon" href="../Images/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../style.css">
   <script>document.documentElement.classList.add("js");</script>
 </head>
@@ -23,9 +23,9 @@
       </button>
       <ul class="nav-links" id="nav-links">
         <li><a href="../index.html#about">About</a></li>
-        <li><a href="../index.html#news">News</a></li>
-        <li><a href="../index.html#research">Research</a></li>
-        <li><a href="../index.html#publications">Publications</a></li>
+        <li><a href="../news.html">News</a></li>
+        <li><a href="../research.html" class="is-active">Research</a></li>
+        <li><a href="../publications.html">Publications</a></li>
         <li><a href="../index.html#contact">Contact</a></li>
         <li><a href="../CV.pdf" class="nav-cv" target="_blank" rel="noopener">CV ↗</a></li>
       </ul>
@@ -34,7 +34,7 @@
 
   <main id="main" class="project-page">
     <article class="wrap wrap--narrow">
-      <a href="../index.html#research" class="back-link">← Back to Research</a>
+      <a href="../research.html" class="back-link">← Back to Research</a>
 
       <div class="project-meta">
         <span class="meta-year">2025</span>
@@ -46,9 +46,9 @@
 
       <figure class="project-figure" data-reveal>
         <div class="figure-frame">
-          <img src="../Images/everyday-xai.svg" width="640" height="400" alt="A phone with three everyday AI apps; one offers a 'Why am I seeing this?' explanation the user can open or dismiss">
+          <img src="../Images/everyday-xai-concept.svg" width="1120" height="604" alt="Question 1: do everyday users want AI to explain itself? An everyday app offers 'Why am I seeing this?'. Choosing 'Not now' leads to the answer: not necessarily, since XAI is not naturally accepted in daily life. Question 2: if so, how? Choosing 'Explain' leads to three ideal designs: contextualized understanding, adoption and adaptation, and multistakeholder values.">
         </div>
-        <figcaption>In daily apps, an explanation is something people can take up or turn down, and many turn it down.</figcaption>
+        <figcaption>The paper's two central questions. In daily apps, an explanation is something people can take up or turn down, and many turn it down. Those who take it up envision explanations that do three things.</figcaption>
       </figure>
 
       <section class="detail-section" data-reveal>
@@ -57,38 +57,29 @@
       </section>
 
       <section class="detail-section" data-reveal>
-        <h2 class="detail-label">Questions</h2>
-        <ol class="method-flow">
-          <li class="method-step">
-            <strong>Non-use</strong>
-            Do end users want explanations from the AI built into their everyday applications, and when do they choose not to engage with them?
-          </li>
-          <li class="method-step">
-            <strong>Concerns</strong>
-            What worries people about bringing explainability into daily AI interactions?
-          </li>
-          <li class="method-step">
-            <strong>Ideal design</strong>
-            When people do seek explanations, what do they envision those explanations doing for them?
-          </li>
-        </ol>
-      </section>
-
-      <section class="detail-section" data-reveal>
-        <h2 class="detail-label">Key Findings</h2>
-        <p><strong>XAI is not naturally accepted by end users in their daily lives.</strong> When people do seek explanations, they envision designs that do three things:</p>
-        <div class="finding-grid finding-grid--3">
-          <div class="finding">
-            <h3>Contextualized understanding</h3>
-            <p>Explanations that make sense of the AI within the user's own situation, not in the abstract.</p>
-          </div>
-          <div class="finding">
-            <h3>Adoption and adaptation</h3>
-            <p>Explanations that help people decide to adopt AI systems and adapt to them over time.</p>
-          </div>
-          <div class="finding">
-            <h3>Multistakeholder values</h3>
-            <p>Explanations that consider the values of everyone affected, beyond the person holding the phone.</p>
+        <h2 class="detail-label">Central Questions</h2>
+        <div class="question">
+          <span class="question-num">Question 1</span>
+          <h3 class="question-text">Do everyday users want AI systems to explain themselves?</h3>
+          <p><strong>Not necessarily.</strong> XAI is not naturally accepted by end users in their daily lives. The paper looks at <strong>non-use</strong>, when people choose not to engage with the explanations offered by the AI in their everyday applications, and at the <strong>concerns</strong> people have about bringing explainability into daily AI interactions.</p>
+        </div>
+        <div class="question">
+          <span class="question-num">Question 2</span>
+          <h3 class="question-text">If so, how should they explain?</h3>
+          <p>When people do seek explanations, they envision designs that do three things:</p>
+          <div class="finding-grid finding-grid--3">
+            <div class="finding">
+              <h3>Contextualized understanding</h3>
+              <p>Explanations that make sense of the AI within the user's own situation, not in the abstract.</p>
+            </div>
+            <div class="finding">
+              <h3>Adoption and adaptation</h3>
+              <p>Explanations that help people decide to adopt AI systems and adapt to them over time.</p>
+            </div>
+            <div class="finding">
+              <h3>Multistakeholder values</h3>
+              <p>Explanations that consider the values of everyone affected, beyond the person holding the phone.</p>
+            </div>
           </div>
         </div>
       </section>

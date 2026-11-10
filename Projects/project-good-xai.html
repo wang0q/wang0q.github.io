@@ -8,7 +8,7 @@
   <link rel="icon" href="../Images/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../style.css">
   <script>document.documentElement.classList.add("js");</script>
 </head>
@@ -23,9 +23,9 @@
       </button>
       <ul class="nav-links" id="nav-links">
         <li><a href="../index.html#about">About</a></li>
-        <li><a href="../index.html#news">News</a></li>
-        <li><a href="../index.html#research">Research</a></li>
-        <li><a href="../index.html#publications">Publications</a></li>
+        <li><a href="../news.html">News</a></li>
+        <li><a href="../research.html" class="is-active">Research</a></li>
+        <li><a href="../publications.html">Publications</a></li>
         <li><a href="../index.html#contact">Contact</a></li>
         <li><a href="../CV.pdf" class="nav-cv" target="_blank" rel="noopener">CV ↗</a></li>
       </ul>
@@ -34,7 +34,7 @@
 
   <main id="main" class="project-page">
     <article class="wrap wrap--narrow">
-      <a href="../index.html#research" class="back-link">← Back to Research</a>
+      <a href="../research.html" class="back-link">← Back to Research</a>
 
       <div class="project-meta">
         <span class="meta-year">2025</span>
@@ -46,9 +46,9 @@
 
       <figure class="project-figure" data-reveal>
         <div class="figure-frame">
-          <img src="../Images/good-xai.svg" width="640" height="400" alt="Eighty-seven end users weigh recommended XAI properties; comprehensibility is most valued and contrastivity may backfire">
+          <img src="../Images/good-xai-concept.svg" width="1120" height="520" alt="An AI is a black box. XAI reflects certain aspects of it through recommended criteria C1 to Cn. Whether those criteria are good or important is judged on the explanation itself, while their real effects on users are unknown and not necessarily good or important.">
         </div>
-        <figcaption>Not every recommended property helps. Comprehensibility mattered most to end users; contrastivity could have overall negative effects.</figcaption>
+        <figcaption>XAI reflects certain aspects of an AI to its users, guided by recommended criteria. Those criteria then have real effects on users, which are not necessarily good or important.</figcaption>
       </figure>
 
       <section class="detail-section" data-reveal>

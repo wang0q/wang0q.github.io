@@ -8,7 +8,7 @@
   <link rel="icon" href="../Images/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../style.css">
   <script>document.documentElement.classList.add("js");</script>
 </head>
@@ -23,9 +23,9 @@
       </button>
       <ul class="nav-links" id="nav-links">
         <li><a href="../index.html#about">About</a></li>
-        <li><a href="../index.html#news">News</a></li>
-        <li><a href="../index.html#research">Research</a></li>
-        <li><a href="../index.html#publications">Publications</a></li>
+        <li><a href="../news.html">News</a></li>
+        <li><a href="../research.html" class="is-active">Research</a></li>
+        <li><a href="../publications.html">Publications</a></li>
         <li><a href="../index.html#contact">Contact</a></li>
         <li><a href="../CV.pdf" class="nav-cv" target="_blank" rel="noopener">CV ↗</a></li>
       </ul>
@@ -34,7 +34,7 @@
 
   <main id="main" class="project-page">
     <article class="wrap wrap--narrow">
-      <a href="../index.html#research" class="back-link">← Back to Research</a>
+      <a href="../research.html" class="back-link">← Back to Research</a>
 
       <div class="project-meta">
         <span class="meta-year">2025</span>
@@ -47,19 +47,26 @@
 
       <figure class="project-figure" data-reveal>
         <div class="figure-frame">
-          <img src="../Images/equality-engine-board.png" width="1244" height="881" alt="The Equality Engine game board on a navy background: a cycle from State of the World to Sample, Dataset, Algorithms, and Job Applications, with card slots for historical, representation, measurement, modeling, and deployment bias, piles for the Discover Bias and Debias phases, and areas for the student pool (+10) and preventive measures (+30).">
+          <img src="../Images/equality-engine-concept.svg" width="1120" height="520" alt="Equality Engine at a glance, in three panels. The problem: bias creeps into every stage of a hiring algorithm, from the state of the world (historical bias) to the sample (representation), dataset (measurement), algorithms (modeling), and job applications (deployment). The game: two players act as engineers who debug it together, one describing a bias card while the other guesses its type, over three rounds of Discover Bias, Debias, and Take Actions. The outcome: students' median self-reported knowledge of ML bias rose from 16.5 to 24 out of 28.">
         </div>
-        <figcaption>The game board (Figure 1 in the paper). A hiring system's pipeline runs from the state of the world to a sample, a dataset, algorithms, and job applications, and each stage has its own source of bias: historical, representation, measurement, modeling, and deployment.</figcaption>
+        <figcaption>The project at a glance. Bias can enter a hiring algorithm at each of five stages; in the game, pairs of students work as engineers to name each bias, debate fixes, and act on them; after one session, their self-reported knowledge of ML bias rose.</figcaption>
       </figure>
 
       <section class="detail-section" data-reveal>
         <h2 class="detail-label">The Game</h2>
-        <p>Equality Engine is a cooperative two-player board game that runs in the browser on PlayingCards.io. Its five bias types adapt Suresh and Guttag's framework of bias across the ML life cycle, and most of its 20 bias cards come from research on algorithmic hiring, rewritten without ML jargon.</p>
+        <p>Equality Engine is a cooperative two-player board game that runs in the browser on PlayingCards.io.</p>
         <figure class="project-figure project-figure--compact">
           <div class="figure-frame">
-            <img src="../Images/equality-engine-cards.jpg" width="1600" height="1122" alt="Five example bias cards, one per category, such as Historical Bias: Name Discrimination and Modeling Bias: Machines Stick to It, next to the red back of a bias card.">
+            <img src="../Images/equality-engine-board.svg" width="1040" height="760" alt="The Equality Engine game board: a loop of five pipeline stages (state of the world, sample, dataset, algorithms, and job applications), each with a card slot for its bias type (historical, representation, measurement, modeling, and deployment). The corners hold the Discover Bias and Debias decks, the Take Actions areas for the student pool (+10) and preventive measures (+30), and a leaderboard.">
           </div>
-          <figcaption>Example bias cards, one from each category (Figure 2 in the paper). Each pairs a short title with a real case, such as résumés with “white” names getting more callbacks.</figcaption>
+          <figcaption>The game board, redrawn from Figure 1 in the paper. A hiring system's pipeline runs from the state of the world to a sample, a dataset, algorithms, and job applications, and each stage has its own source of bias: historical, representation, measurement, modeling, and deployment.</figcaption>
+        </figure>
+        <p>Its five bias types adapt Suresh and Guttag's framework of bias across the ML life cycle, and most of its 20 bias cards come from research on algorithmic hiring, rewritten without ML jargon.</p>
+        <figure class="project-figure project-figure--compact">
+          <div class="figure-frame">
+            <img src="../Images/equality-engine-cards.svg" width="1120" height="436" alt="Five example bias cards, one per category: Historical bias, Name Discrimination; Representation bias, Geographic Diversity; Measurement bias, Labeling Bias; Modeling bias, Machines Stick to It; and Deployment bias, Irrelevant Assessment.">
+          </div>
+          <figcaption>Example bias cards, one from each category, redrawn from Figure 2 in the paper. Each pairs a short title with a real case, such as résumés with “white” names getting more callbacks.</figcaption>
         </figure>
         <p>A session runs three rounds, and in every round each player moves through three phases. A leaderboard of the top three past scores adds a goal without pitting players against each other directly.</p>
         <div class="finding-grid finding-grid--3">
@@ -163,6 +170,7 @@
 
       <nav class="project-pager" aria-label="More projects">
         <a class="prev" href="project-good-xai.html"><small>Previous project</small>← What Makes XAI “Good”?</a>
+        <a class="next" href="project-social-vr-safety.html"><small>Next project</small>Safety in Social VR →</a>
       </nav>
     </article>
   </main>

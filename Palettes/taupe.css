@@ -1,0 +1,25 @@
+/*
+ * Palette: Taupe
+ * Warm taupe text and dark sections, blush and clay accents, off-white page.
+ * This was the site's original palette.
+ *
+ * Favicon to use with it: Images/favicon-taupe.svg (circle #463f3a, letter #f4f3ee).
+ *
+ * Every palette file defines the same tokens. See style.css for how to switch.
+ */
+:root {
+  --ink: #463f3a;          /* main text */
+  --dark: #463f3a;         /* dark section, solid button and mobile menu background */
+  --ink-soft: #6b625c;     /* secondary text on light backgrounds */
+  --stone: #8a817c;        /* rules, large muted text */
+  --sand: #bcb8b1;         /* secondary text on dark backgrounds */
+  --paper: #f4f3ee;        /* page background */
+  --paper-deep: #ebe8e1;   /* subtle fills */
+  --card: #fbfaf7;         /* figure frames, finding cards, cite block */
+  --blush: #e0afa0;        /* accent on dark backgrounds, fills (blush) */
+  --accent-line: #e0afa0;  /* accent for underlines, borders, bullets and bars on light backgrounds */
+  --clay: #9a5643;         /* accent for text on light backgrounds (clay) */
+  --clay-deep: #7a4231;    /* text on blush fills */
+  --line: rgba(70, 63, 58, 0.14);
+  --line-on-dark: rgba(244, 243, 238, 0.12);
+}
